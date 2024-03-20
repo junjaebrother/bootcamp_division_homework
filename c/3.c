@@ -8,5 +8,17 @@
 int main() {
     // 이곳에 코드를 작성해주세요!
 
+    int time;
+    scanf("%d", &time);
+
+    if(0 <= time && time < 12) {
+        printf("AM");
+    }
+    else if(12 <= time && time < 23) {
+        printf("PM");
+    }
+    else {
+        printf("error");
+    }
     return 0;
 }

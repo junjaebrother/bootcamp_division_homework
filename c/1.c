@@ -7,6 +7,9 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    char c1, c2, c3;
+    scanf("%c%c%c", &c1, &c2, &c3);
+    printf("%c%c%c", c3, c2, c1);
 
     return 0;
 }

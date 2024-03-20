@@ -6,7 +6,16 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    int n;
+    int sum = 0;
+    int fac = 1;
+    scanf("%d", &n);
+    for (int i = 1; i < (n+1); i++) {
+        sum += i;
+        fac *= i;
+    }
+
+    printf("%d\n%d", sum, fac);
 
     return 0;
 }
