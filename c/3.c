@@ -11,10 +11,10 @@ int main() {
     int time;
     scanf("%d", &time);
 
-    if(0 <= time && time < 12) {
+    if(0 <= time < 12) {
         printf("AM");
     }
-    else if(12 <= time && time < 23) {
+    else if(12 <= time <= 23) {
         printf("PM");
     }
     else {
